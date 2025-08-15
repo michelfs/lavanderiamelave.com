@@ -130,7 +130,7 @@ include "include/header.php";
 
         <div class="title-block mx-auto">
             <div class="section_title mb-4 text-center">
-                <h2><span>Av. do Oratório 2798 - Parque São Lucas, São Paulo - SP, CEP: 03220-100</span></h2>
+                <h2><span><?php echo $endereco_completo; ?></span></h2>
                 <span class="scroll-title" data-enllax-ratio="2.5" data-enllax-type="foreground" data-enllax-direction="horizontal">Localização</span>
                 <p class="section_subtitle mx-auto">Localização</p>
 
@@ -140,7 +140,7 @@ include "include/header.php";
         <div class="row align-items-center">
             <div class="col-md-12 col-sm-12">
                 <!--<div id="map"></div>-->
-                <iframe src="https://www.google.com/maps/place/Av.+Pres.+Kennedy,+12644+-+Vila+Cai%C3%A7ara,+Praia+Grande+-+SP,+11707-005/data=!4m2!3m1!1s0x94ce2032979a2eab:0x9a2274aa195d8abc?sa=X&ved=1t:242&ictx=111" width="1024" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="<?php echo $maps; ?>" width="1024" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>

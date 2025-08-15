@@ -55,7 +55,7 @@ include "include/header.php";
 
         <div class="row align-items-center">
             <div class="col-md-12 col-sm-12">
-            <iframe src="https://www.google.com/maps/place/Av.+Pres.+Kennedy,+12644+-+Vila+Cai%C3%A7ara,+Praia+Grande+-+SP,+11707-005/data=!4m2!3m1!1s0x94ce2032979a2eab:0x9a2274aa195d8abc?sa=X&ved=1t:242&ictx=111" width="1024" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="<?php echo $maps; ?>" width="1024" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
